@@ -2,17 +2,16 @@
 framework: mocha
 preMerge:
   pattern:
-    - "./test/test-python-shell.js"
+    - "./test/test-python-shell.ts"
 preRun:
      command:
         - npm ci
         - npm run compile
 postMerge:
   pattern: 
-    - "./test/test-python-shell.js"
+    - "./test/test-python-shell.ts"
 postRun:
      command:
-        - node --version
         - node --version
 configFile: mocharc.yml
 nodeVersion: 12.22.6
