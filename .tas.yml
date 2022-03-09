@@ -12,6 +12,5 @@ postMerge:
 postRun:
      command:
         - node --version
-        - node --version
 nodeVersion: 12.22.6
 version: 1.0
