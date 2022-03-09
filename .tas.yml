@@ -1,0 +1,16 @@
+---
+framework: mocha
+preMerge:
+  pattern:
+    - "./test/test-python-shell.js"
+preRun:
+     command:
+        - npm ci
+postMerge:
+  pattern: 
+    - "./test/test-python-shell.js"
+postRun:
+     command:
+        - node --version
+nodeVersion: 12.22.6
+version: 1.0
