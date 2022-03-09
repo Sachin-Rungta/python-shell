@@ -359,7 +359,7 @@ customPipe.pipe(new NewlineTransformer()).on('data', (customResult: Buffer) => {
 Python-Shell is used by [arepl-vscode](https://github.com/almenon/arepl-vscode), [gitinspector](https://github.com/ejwa/gitinspector), [pyspreadsheet](https://github.com/extrabacon/pyspreadsheet), [AtlantOS Ocean Data QC](https://github.com/ocean-data-qc/ocean-data-qc) and more!
 
 ## License
-
+##
 The MIT License (MIT)
 
 Copyright (c) 2014 Nicolas Mercier
